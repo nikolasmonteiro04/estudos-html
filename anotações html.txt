@@ -1,0 +1,170 @@
+HTML
+<h1> até <h6> tipos de título
+<p> paragrafo
+<!-- --> comentários
+<strong>negrito</strong>
+<em>itálico</em>
+CTRL + ; comenta a linha toda
+<img src=""> utilizar imagens
+para mudar o tamanho das imagens usar <width=""> e <height="">
+alt="" usar texto de descrição
+<br> quebra de linhas
+<hr> régua horizontal
+<nav> para barra de navegação (no lugar de div)
+<table></table>
+<tr></tr> table roll - linhas
+<td></td> coluna
+<th></th> cabeçalho
+name="" identificar no backend
+id="" e for="" sempre iguais
+placeholder = texto de exemplo
+<header></header> para cabeçalho
+<nav></nav> para navegação com link 
+<address> usado para divisão de endereço de Contato
+<article> conteudo autocontigo ou resumo de algo (tem titulo seguido de um resumo, usado em noticias ou pequenos cards)
+<footer> roda pé (após o body)
+caso a ação tenha required usar aria-required=true
+fora o label usar aria-label
+usar as role
+aria-labelledby=infoHeading para titulo com id=infoHeading
+aria-describedby=infoContent
+
+URL 
+
+url relativa
+../div-e-span/
+
+url absoluta
+/div-e-span/
+
+# usado para navegar entre as ids na mesma página
+#sumario ou #"id"
+
+redirect mesmo dominio
+<a href="/exercicio">Berserk</a>
+
+redirect link
+<a href="https://www.instagram.com/denis.lim4/">Berserk</a> 
+
+pular entre ids     
+<a href="#fim">Fim</a>
+
+LISTAS
+<ol></ol> lista ordenada (lista com números 1, 2, 3...)
+<ul></ul> unordered list (lista sem ordem de númeração)
+<li></li> objeto da lista
+
+ex:
+    <ul>
+        <li>
+            <strong>Top Personagens</strong>
+            <ul>
+                <li>Okabe</li>
+                <li>Makise</li>
+                <li>Suzuha</li>
+            </ul>
+        </li>
+    </ul>
+
+    <ul>
+        <li>
+            <strong>Top Personagens</strong>
+            <ol>
+                <li>Okabe</li>
+                <li>Makise</li>
+                <li>Suzuha</li>
+            </ol>
+        </li>
+    </ul>
+
+TABELAS
+<table></table>
+<tr></tr> table roll - linhas
+<td></td> coluna
+<th></th> cabeçalho
+
+exemplo:
+
+    <h2>Tabela com Cabeçalho</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>24</td>
+                <td>Vagabundo</td>
+            </tr>
+            <tr>
+                <td>Marcola</td>
+                <td>25</td>
+                <td>Uber</td>
+            </tr>
+        </tbody>
+    </table>
+
+    ex 2 com celular personalizadas:
+    
+        <h1>Tabelas com celulas personalizadas</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="2">Informações Pessoais</th>
+                <th>Contato</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nome:</td>
+                <td>João</td>
+                <td rowspan="2">Telefone: 123456</td>
+            </tr>
+            <tr>
+                <td>Idade:</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+    </table>
+
+    FORMULARIOS
+    define o formulario, ação e metodo. 
+    <form>
+        <form action="https://google.com/search" method="get">
+        <label for="pesquisar">Pesquise no Google</label>
+        <input type="text" name="q" id="pesquisar">
+        <button type="submit">Pesquisar</button>
+    </form>
+
+    Exemplo 2
+
+    <form>
+        <!-- Campo de Texto -->
+         <label for="nome"Nome></label>
+         <input type="text" id="nome" name="home">
+        <button type="submit">Enviar</button>
+    </form>
+
+name="" identificar no backend
+id="" e for="" sempre iguais
+placeholder = texto de exemplo
+
+Div e semantica
+
+<header></header> para cabeçalho
+<nav></nav> para navegação com link 
+<address> usado para divisão de endereço de Contato
+<article> conteudo autocontigo ou resumo de algo (tem titulo seguido de um resumo, usado em noticias ou pequenos cards)
+<footer> roda pé (após o body)
+
+WAI-ARIA
+
+caso a ação tenha required usar aria-required=true
+fora o label usar aria-label
+usar as role
+aria-labelledby=infoHeading para titulo com id=infoHeading
+aria-describedby=infoContent
